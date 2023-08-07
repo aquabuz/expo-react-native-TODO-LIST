@@ -1,0 +1,13 @@
+{
+  "setupTasks": [
+    { "name": "Installing Dependencies", "command": "pnpm install" }
+  ],
+  "tasks": {
+    "dev": {
+      "name": "Start development server",
+      "command": "pnpm run start",
+      "runAtStart": true,
+      "preview": { "port": 19000, "pr-link": "direct" }
+    }
+  }
+}
